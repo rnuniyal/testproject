@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Tests" parallel="tests" thread-count="4" preserve-order="true">
+	<!-- <listeners> <listener class-name="org.uncommons.reportng.HTMLReporter" 
+		/> <listener class-name="org.uncommons.reportng.JUnitXMLReporter" /> </listeners> -->
+	<test name="TestProj">		 	
+		<classes>
+	  		<class name="testproject.testproj.FirstTest">
+				 <methods>
+					<include name="firstTest" />
+					<!-- <include name="TC_02_VerifySliderDIMValueNavigateBottomTab" /> 
+					<include name="TC_03_VerifySliderCCTValueNavigateBottomTab" />  
+					<include name="TC_04_BrightnessScaleFrom1To100OfNightLightScreen100To1" /> 
+					<include name="TC_05_NavigationToDifferentPages" />
+					<include name="TC_06_VerifyBottomTabNavigationRegUsr" />  -->
+					
+				</methods>
+			</class>
+ 
+		</classes>
+	</test>
+ </suite>
